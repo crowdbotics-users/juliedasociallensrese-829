@@ -7,6 +7,7 @@ from home.models import CustomText, HomePage
 
 def home(request):
     packages = [
+	{'name':'SpeechRecognition', 'url': 'http://pypi.python.org/pypi/SpeechRecognition/3.8.1'},
 	{'name':'twilio', 'url': 'http://pypi.python.org/pypi/twilio/6.10.1'},
 	{'name':'pinax-notifications', 'url': 'http://pypi.python.org/pypi/pinax-notifications/5.0.1'},
 	{'name':'django-todo', 'url': 'http://pypi.python.org/pypi/django-todo/1.6.2'},

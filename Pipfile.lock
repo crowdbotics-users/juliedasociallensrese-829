@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "c9d81d47cfd9a1b4d554d35d0350edf295333d226292ab970ae79c93856a2929"
+            "sha256": "639a18d50aff9970389f4ff7d1bc2dd408fc96ad3b61ca2de0a41647f0b834b2"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -445,6 +445,7 @@
                 "sha256:502a824f31acdacb3a35b6690b5fbf0bc41d63a24a45c4004352b0242707598e",
                 "sha256:7bf2a778576d825600030a110f3c0e3e8edc51dfaafe1c146e39a2027784957b"
             ],
+            "markers": "python_version >= '3.0'",
             "version": "==2.21.0"
         },
         "requests-oauthlib": {
@@ -467,6 +468,13 @@
                 "sha256:d16a0141ec1a18405cd4ce8b4613101da75da0e9a7aec5bdd4fa804d0e0eba73"
             ],
             "version": "==1.12.0"
+        },
+        "speechrecognition": {
+            "hashes": [
+                "sha256:4d8f73a0c05ec70331c3bacaa89ecc06dfa8d9aba0899276664cda06ab597e8e"
+            ],
+            "index": "pypi",
+            "version": "==3.8.1"
         },
         "timeconvert": {
             "hashes": [
