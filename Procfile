@@ -1,0 +1,1 @@
+web: waitress-serve --port=$PORT juliedasociallensrese_829.wsgi:application
