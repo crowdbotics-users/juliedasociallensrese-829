@@ -7,6 +7,7 @@ from home.models import CustomText, HomePage
 
 def home(request):
     packages = [
+	{'name':'django-todo', 'url': 'http://pypi.python.org/pypi/django-todo/1.6.2'},
 	{'name':'wq', 'url': 'http://pypi.python.org/pypi/wq/1.0.0'},
 	{'name':'django-file-upload', 'url': 'http://pypi.python.org/pypi/django-file-upload/1.0.0'},
 	{'name':'djangorestframework', 'url': 'http://pypi.python.org/pypi/djangorestframework/3.7.7'},
