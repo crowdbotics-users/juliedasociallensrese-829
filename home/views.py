@@ -7,7 +7,6 @@ from home.models import CustomText, HomePage
 
 def home(request):
     packages = [
-	{'name':'django-todo', 'url': 'http://pypi.python.org/pypi/django-todo/1.6.2'},
 	{'name':'wq', 'url': 'http://pypi.python.org/pypi/wq/1.0.0'},
 	{'name':'django-allauth', 'url': 'http://pypi.python.org/pypi/django-allauth/0.34.0'},
     ]
